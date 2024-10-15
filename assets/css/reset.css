@@ -26,6 +26,7 @@ nav,footer,header,aside {
 html,body {
     height: 100%;
     width: 100%;
+    font-size: 16px;
     font-style: normal;
     scroll-behavior: smooth;
 }
@@ -37,6 +38,7 @@ input::-ms-clear {
 button {
     cursor: pointer;
     background: transparent;
+    font-size: 1rem;
 }
 
 button::-moz-focus-inner {
@@ -77,4 +79,9 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    font-size: 1rem;
 }
